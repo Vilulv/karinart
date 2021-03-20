@@ -1,13 +1,33 @@
 html {
   background-color: rgb(169, 216, 238);
+  color: rgb(21, 66, 87);
 }
-img {
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  text-align: center;
+}
+
+.works {
+  flex-wrap: wrap;
+}
+
+.works__item {
+  margin: 5px;
+}
+
+.works__item,
+.about__photo {
   width: 220px;
   height: 225px;
+  object-fit: cover;
 }
-h1 {
-  color: rgb(21, 66, 87);
-}
-div {
-  color: rgb(21, 66, 87);
+
+.footer {
+  padding: 20px 0;
 }
